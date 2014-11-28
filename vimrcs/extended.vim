@@ -12,7 +12,7 @@
 if has("mac") || has("macunix")
     set gfn=Monaco:h14,Monaco:h14
 elseif has("win16") || has("win32")
-    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+    set gfn=S/ource\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
     set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("unix")
@@ -26,19 +26,19 @@ endif
 "endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
-set guioptions-=r
-set guioptions-=R
-set guioptions-=l
-set guioptions-=L
+"set guioptions-=r
+"set guioptions-=R
+"set guioptions-=l
+"set guioptions-=L
 
 " Colorscheme
-if has("gui_running")
-    set background=dark
-    colorscheme peaksea
-else
-    colorscheme solarized
-    let g:colors_name="solarized"
-endif
+"if has("gui_running")
+"    set background=dark
+"    colorscheme peaksea
+"else
+"    colorscheme solarized
+"    let g:colors_name="solarized"
+"endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
