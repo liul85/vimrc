@@ -22,9 +22,9 @@ au FileType python map <buffer> <leader>D ?def
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
-au FileType javascript call JavaScriptFold()
+"au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
-au FileType javascript setl nocindent
+" au FileType javascript setl nocindent
 
 au FileType javascript imap <c-t> $log();<esc>hi
 au FileType javascript imap <c-a> alert();<esc>hi
@@ -47,10 +47,10 @@ endfunction
 """"""""""""""""""""""""""""""
 " => CoffeeScript section
 """""""""""""""""""""""""""""""
-function! CoffeeScriptFold()
-    setl foldmethod=indent
-    setl foldlevelstart=1
-endfunction
-au FileType coffee call CoffeeScriptFold()
-
-au FileType gitcommit call setpos('.', [0, 1, 1, 0])
+"function! CoffeeScriptFold()
+"    setl foldmethod=indent
+"    setl foldlevelstart=1
+"endfunction
+"au FileType coffee call CoffeeScriptFold()
+"
+"au FileType gitcommit call setpos('.', [0, 1, 1, 0])
