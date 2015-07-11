@@ -146,11 +146,6 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable 
 
-try
-    colorscheme solarized
-catch
-endtry
-
 set background=dark
 
 " Set extra options when running in GUI mode
